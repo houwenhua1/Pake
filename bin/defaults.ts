@@ -11,7 +11,7 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
   darkMode: false,
   disabledWebShortcuts: false,
   activationShortcut: '',
-  userAgent: '',
+  userAgent: 'yu_agent',
   showSystemTray: false,
   multiArch: false,
   targets: 'deb',
