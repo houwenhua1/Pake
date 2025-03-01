@@ -12,5 +12,14 @@
   },
   "build": {
     "frontendDist": "../dist"
+  },
+  "tauri": {
+    "allowlist": {
+      "shell": {
+        "all": true,
+        "execute": true,
+        "open": true
+      }
+    }
   }
 }
