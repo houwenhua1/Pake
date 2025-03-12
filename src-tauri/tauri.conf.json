@@ -13,7 +13,16 @@
   "build": {
     "frontendDist": "../dist"
   },
-  "security": {
-    "csp": "default-src 'self'"
+  "tauri": {
+    "allowlist": {
+      "all": true, 
+      "fs": {
+        "readFile": true,
+        "writeFile": true
+      }
+    },
+    "security": {
+      "csp": "default-src 'self'"
+    }
   }
 }
