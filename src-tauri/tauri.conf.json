@@ -13,11 +13,7 @@
   "build": {
     "frontendDist": "../dist"
   },
-  "allowlist": {
-    "shell": {
-      "all": true,
-      "execute": true,
-      "open": true
-    }
+  "security": {
+    "csp": "default-src 'self'"
   }
 }
