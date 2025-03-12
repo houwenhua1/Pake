@@ -8,21 +8,12 @@
       "iconPath": "png/weread_512.png",
       "iconAsTemplate": false,
       "id": "pake-tray"
-    }
-  },
-  "build": {
-    "frontendDist": "../dist"
-  },
-  "tauri": {
-    "allowlist": {
-      "all": true, 
-      "fs": {
-        "readFile": true,
-        "writeFile": true
-      }
     },
     "security": {
       "csp": "default-src 'self'"
     }
+  },
+  "build": {
+    "frontendDist": "../dist"
   }
 }
