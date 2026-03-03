@@ -147,10 +147,10 @@ pub fn run_app() {
                     tauri::async_runtime::spawn(async move {
                         #[cfg(target_os = "macos")]
                         {
-                            if window.is_fullscreen().unwrap_or(false) {
-                                window.set_fullscreen(false).unwrap();
-                                tokio::time::sleep(Duration::from_millis(900)).await;
-                            }
+                            // if window.is_fullscreen().unwrap_or(false) {
+                            //     window.set_fullscreen(false).unwrap();
+                            //     tokio::time::sleep(Duration::from_millis(900)).await;
+                            // }
                         }
                         #[cfg(target_os = "linux")]
                         {
